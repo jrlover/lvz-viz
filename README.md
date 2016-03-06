@@ -2,6 +2,7 @@ lvz-viz
 =======
 
 [![Code Climate](https://codeclimate.com/github/CodeforLeipzig/lvz-viz/badges/gpa.svg)](https://codeclimate.com/github/CodeforLeipzig/lvz-viz)
+[![Build Status](https://travis-ci.org/jrlover/lvz-viz.png?branch=master)](https://travis-ci.org/jrlover/lvz-viz)
 
 Visualization of [LVZ police ticker](http://www.lvz-online.de/leipzig/polizeiticker/r-polizeiticker.html).
 
