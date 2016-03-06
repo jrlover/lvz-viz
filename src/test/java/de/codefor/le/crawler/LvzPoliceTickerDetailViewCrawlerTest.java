@@ -47,7 +47,7 @@ public class LvzPoliceTickerDetailViewCrawlerTest {
         urls.add("http://www.lvz.de/Specials/Themenspecials/Legida-und-Proteste"
                 + "/Pegida/Nach-Pegida-Auseinandersetzung-auch-am-Leipziger-Hauptbahnhof");
 
-        final Future<Iterable<PoliceTicker>> future = crawler.execute(urls);
+        final Future<? extends Iterable<PoliceTicker>> future = crawler.execute(urls);
         assertNotNull(future);
         final Iterable<PoliceTicker> results = future.get();
         assertNotNull(results);
