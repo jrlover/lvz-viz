@@ -8,9 +8,6 @@ apply plugin: 'eclipse-wtp'
 apply plugin: 'idea'
 apply plugin: 'spring-boot'
 apply plugin: 'jacoco'
-apply plugin: 'checkstyle'
-apply plugin: 'findbugs'
-apply plugin: 'pmd'
 
 sourceCompatibility="1.8"
 targetCompatibility="1.8"
@@ -82,4 +79,3 @@ jacocoTestReport {
 }
 
 check.dependsOn jacocoTestReport
-
